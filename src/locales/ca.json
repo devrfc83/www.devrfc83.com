@@ -1,0 +1,370 @@
+{
+  "meta": {
+    "siteName": "Rodrigo Fuentealba Cartes",
+    "defaultTitle": "Rodrigo Fuentealba Cartes — @devrfc83"
+  },
+  "common": {
+    "nav": {
+      "home": "Inici",
+      "about": "Sobre mi",
+      "services": "Serveis",
+      "contact": "Contacte"
+    },
+    "footer": {
+      "copyright": "Copyright © {{year}} Rodrigo Fuentealba Cartes — Tots els drets reservats.",
+      "legal": "Consulta els nostres <termsLink>termes de servei</termsLink> i la nostra <privacyLink>política de privacitat</privacyLink>."
+    },
+    "notFound": {
+      "title": "Pàgina no trobada",
+      "body": "La pàgina que cerques no existeix.",
+      "back": "Tornar a l'inici"
+    },
+    "language": "Idioma",
+    "backHome": "← Inici",
+    "profileAlt": "Foto de perfil de Rodrigo Fuentealba Cartes",
+    "profileAltShort": "Foto de perfil",
+    "socialNav": "Xarxes socials"
+  },
+  "home": {
+    "bio": "Enginyer en informàtica amb més de 20 anys d'experiència en la indústria del programari."
+  },
+  "about": {
+    "subtitle": "Llicenciat en Enginyeria i enginyer en informàtica amb més de 20 anys d'experiència en el sector. Jugador d'escacs, motorista, radioaficionat i esportista.",
+    "historyTitle": "Història",
+    "history": "Vaig néixer el 22 de febrer de 1983 a Talcahuano, Regió del Bío-Bío, Xile. Em vaig graduar com a Analista Programador el 2008, i després com a Llicenciat en Ciències de l'Enginyeria i enginyer en informàtica el 2024, amb distinció <em>Cum Laude</em>. Actualment visc a la ciutat de Talca, Regió del Maule, Xile.",
+    "experienceTitle": "Experiència",
+    "experience": "Tinc més de 20 anys d'experiència en la indústria del programari, treballant en projectes de diversa índole, des d'aplicacions web fins a sistemes de gestió empresarial.",
+    "interestsTitle": "Interessos",
+    "interestsIntro": "A més de la meva activitat professional, tinc diversos interessos:",
+    "interestChessNote": "(aquí pots fer <analysisLink>anàlisi de les teves partides</analysisLink>).",
+    "interestElectronicsPlain": "Electricitat i electrònica.",
+    "kickboxingNote": "Kickboxing: entreno a <brutalStrikerLink>Brutal Striker Talca</brutalStrikerLink>.",
+    "radioClubNote": "<radioLink>Radioafició</radioLink>: pertanyo al <radioClubLink>Radio Club Lircay de Talca CE4LY</radioClubLink>, del qual també mantinc el lloc web.",
+    "interests": [
+      "Idiomes (anglès, alemany, italià, portuguès).",
+      "Viatges.",
+      "Motociclisme.",
+      "Fotografia DSLR.",
+      "Piano i guitarra.",
+      "Gimnàstica.",
+      "Cal·listènia i halterofília.",
+      "Videojocs i retrogaming."
+    ]
+  },
+  "services": {
+    "title": "Serveis",
+    "intro": "Ofereixo serveis professionals independents en les àrees de Ciència de Dades, enginyeria en informàtica i Gestió de Projectes. Cada projecte s'aborda de forma personalitzada, adaptant les solucions a les necessitats específiques del client i al context del seu negoci. Si tens un projecte en ment, no dubtis a <contactLink>contactar-me</contactLink>.",
+    "items": {
+      "dataScience": {
+        "name": "Data Science",
+        "description": "Anàlisi, modelatge i interpretació de dades per extreure informació accionable, desenvolupar models predictius i donar suport a la presa de decisions basada en evidències."
+      },
+      "software": {
+        "name": "Enginyeria de Programari",
+        "description": "Disseny, desenvolupament i manteniment de solucions de programari, des de l'arquitectura del sistema fins a la implementació, amb focus en qualitat, escalabilitat i bones pràctiques."
+      },
+      "databases": {
+        "name": "Bases de Dades",
+        "description": "Disseny de models d'entitat i relació per a projectes de desenvolupament i d'analítica de dades."
+      },
+      "pm": {
+        "name": "Gestió de Projectes",
+        "description": "Planificació, coordinació i seguiment de projectes tecnològics, assegurant el compliment de terminis, recursos i objectius sota metodologies àgils o tradicionals."
+      },
+      "consulting": {
+        "name": "Consultoria",
+        "description": "Assessoria tècnica especialitzada en tecnologia i sistemes d'informació, orientada a optimitzar processos, avaluar solucions i guiar decisions estratègiques."
+      },
+      "training": {
+        "name": "Formació",
+        "description": "Formació pràctica i personalitzada en eines, llenguatges i metodologies tecnològiques, orientada a equips i professionals que busquen desenvolupar o reforçar competències en l'àrea de dades i programari."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacte",
+    "intro": "Escriu-me i et respondré el més aviat possible. Els camps marcats amb <required>*</required> són obligatoris.",
+    "success": "Missatge enviat correctament. Gràcies per contactar-me.",
+    "error": "No s'ha pogut enviar el missatge. Torna-ho a provar d'aquí a uns minuts.",
+    "honeypot": "No omplis aquest camp:",
+    "name": "Nom",
+    "email": "Correu electrònic",
+    "subject": "Assumpte",
+    "message": "Missatge",
+    "placeholders": {
+      "name": "El teu nom",
+      "email": "tu@correu.com",
+      "subject": "Motiu del missatge",
+      "message": "Escriu el teu missatge aquí…"
+    },
+    "sending": "S'està enviant…",
+    "submit": "Enviar missatge",
+    "captcha": {
+      "label": "Verificació",
+      "another": "Una altra pregunta",
+      "ariaRefresh": "Generar una altra pregunta de verificació",
+      "question": "Quant és {{a}} + {{b}}?",
+      "placeholder": "La teva resposta",
+      "wait": "Espera un moment i torna-ho a provar.",
+      "wrong": "La resposta no és correcta. Torna-ho a provar."
+    }
+  },
+  "quality": {
+    "title": "Qualitat",
+    "intro": "El control de qualitat del programari és el procés sistemàtic que garanteix que cada producte digital compleixi els més alts estàndards de rendiment, seguretat i experiència d'usuari abans d'arribar a les teves mans.",
+    "items": {
+      "requirements": { "name": "Requisits", "description": "Documentació de necessitats del negoci." },
+      "testPlan": { "name": "Pla de Proves", "description": "Descripció de funcionalitats." },
+      "databases": { "name": "Bases de Dades", "description": "Organització de la informació." },
+      "ui": { "name": "Interfícies Gràfiques", "description": "Presentació de la informació." },
+      "logic": { "name": "Lògica d'Aplicació", "description": "Creació de funcionalitats." },
+      "brand": { "name": "Identitat de Marca", "description": "Implementació d'imatge corporativa." },
+      "qa": { "name": "Control de Qualitat", "description": "Validació de funcionalitats segons el pla de proves." },
+      "delivery": { "name": "Posada en Producció", "description": "Lliurament del producte final al client." }
+    }
+  },
+  "products": {
+    "title": "Productes",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Catàleg de solucions disponibles.",
+    "cards": [
+      { "name": "Producte Alpha", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus." },
+      { "name": "Producte Beta", "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur. Donec sed odio dui." },
+      { "name": "Producte Gamma", "description": "Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare." },
+      { "name": "Producte Delta", "description": "Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper." },
+      { "name": "Producte Èpsilon", "description": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus." }
+    ]
+  },
+  "projects": {
+    "title": "Projectes",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Treballs i col·laboracions destacades.",
+    "cards": [
+      { "name": "Projecte Atlas", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet." },
+      { "name": "Projecte Boreal", "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec id elit non mi porta." },
+      { "name": "Projecte Zenit", "description": "Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet." },
+      { "name": "Projecte Delta", "description": "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus." },
+      { "name": "Projecte Egida", "description": "Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit." },
+      { "name": "Projecte Forja", "description": "Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus tellus ac cursus." },
+      { "name": "Projecte Horitzó", "description": "Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod consectetur." }
+    ]
+  },
+  "technology": {
+    "title": "Tecnologia",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Stack i eines que utilitzo.",
+    "cards": [
+      { "name": "TypeScript", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tipatge estàtic per a aplicacions escalables." },
+      { "name": "React", "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur. Interfícies d'usuari modulars." },
+      { "name": "Node.js", "description": "Donec ullamcorper nulla non metus auctor fringilla. Entorns d'execució del costat del servidor." },
+      { "name": "PostgreSQL", "description": "Cras mattis consectetur purus sit amet fermentum. Bases de dades relacionals robustes." },
+      { "name": "Docker", "description": "Nullam quis risus eget urna mollis ornare vel eu leo. Contenidors i desplegament reproducible." },
+      { "name": "Linux", "description": "Vestibulum id ligula porta felis euismod semper. Sistemes operatius i administració de servidors." },
+      { "name": "Git", "description": "Morbi leo risus, porta ac consectetur ac. Control de versions i fluxos de treball en equip." },
+      { "name": "CI/CD", "description": "Fusce dapibus, tellus ac cursus commodo. Integració i lliurament continu de programari." }
+    ]
+  },
+  "coffee": {
+    "title": "Cafè",
+    "intro": "Receptes casolanes amb tasses, cullerades i culleradetes.",
+    "items": {
+      "espresso": { "name": "Espresso", "recipe": "Posar 2 cullerades de cafè i extreure una tassa de mida espresso." },
+      "espressoDoppio": { "name": "Espresso Doppio", "recipe": "Posar 4 cullerades de cafè i extreure mitja tassa de mida normal." },
+      "ristretto": { "name": "Ristretto", "recipe": "Posar 2 cullerades de cafè i extreure mitja tassa de mida espresso." },
+      "lungo": { "name": "Lungo", "recipe": "Posar 2 cullerades de cafè i extreure mitja tassa de mida normal." },
+      "americano": { "name": "Americano", "recipe": "Un espresso i 3/4 de tassa d'aigua calenta." },
+      "longBlack": { "name": "Long Black", "recipe": "3/4 de tassa d'aigua calenta, i buidar-hi un espresso per sobre." },
+      "latte": { "name": "Latte", "recipe": "1 espresso + 1 tassa de llet vaporitzada amb poca escuma." },
+      "flatWhite": { "name": "Flat White", "recipe": "1 espresso + ½ tassa de llet microescumada." },
+      "macchiato": { "name": "Macchiato", "recipe": "1 espresso cobert amb escuma de llet." },
+      "caramelMacchiato": { "name": "Caramel Macchiato", "recipe": "1 espresso + 1 cullerada de xarop de caramel + 1/2 tassa de llet vaporitzada i escuma per sobre." },
+      "cappuccino": { "name": "Capuccino", "recipe": "1 espresso + 2 cullerades de llet vaporitzada + 2 cullerades d'escuma." },
+      "mochaccino": { "name": "Mokaccino", "recipe": "1 espresso + 1 cullerada de cacao o xocolata en pols + llet vaporitzada fins a mitja tassa." },
+      "affogato": { "name": "Affogato", "recipe": "1 porció de gelat de vainilla + 1 espresso calent a sobre." },
+      "viennese": { "name": "Vienès", "recipe": "1 espresso + 2 cullerades de nata muntada." },
+      "irish": { "name": "Irlandès", "recipe": "1 tassa de cafè de filtre calent + 1 cullerada de whisky irlandès + 1 culleradeta de sucre; 2 cullerades de nata a sobre." },
+      "frappe": { "name": "Frappé", "recipe": "1 cullerada de cafè instantani + 1 cullerada d'aigua freda (batre), gel i llet fins a omplir la tassa." }
+    }
+  },
+  "blog": {
+    "underConstruction": "Aquesta secció està en construcció."
+  },
+  "chess": {
+    "title": "Escacs",
+    "intro": "Projecte personal: jugar contra Stockfish en línia. (Aviat Stockfish serà substituït per un motor que juga com ho faig jo.)",
+    "analysisLink": "Analitzador de partides (PGN) →",
+    "loadingEngine": "S'està carregant el motor…",
+    "playAs": "Jugar amb",
+    "white": "Blanques",
+    "black": "Negres",
+    "engineError": "No s'ha pogut carregar Stockfish.",
+    "moveError": "No s'ha pogut obtenir la jugada del motor.",
+    "resetError": "No s'ha pogut reiniciar el motor.",
+    "stockfishCredit": "Motor <stockfishLink>Stockfish</stockfishLink> (GPLv3)",
+    "sounds": {
+      "label": "Sons",
+      "on": "Sons activats",
+      "off": "Sons silenciats",
+      "mute": "Silenciar sons",
+      "unmute": "Activar sons"
+    },
+    "pgn": {
+      "download": "Descarregar PGN",
+      "title": "Exportar partida",
+      "prompt": "Indica el teu nom per incloure'l al fitxer PGN.",
+      "nameLabel": "El teu nom",
+      "placeholder": "Nom i cognoms",
+      "confirm": "Descarregar",
+      "analyze": "Analitzar partida",
+      "confirmAnalyze": "Anar a l'analitzador",
+      "cancel": "Cancel·lar",
+      "noMoves": "No hi ha jugades per exportar.",
+      "nameRequired": "Escriu el teu nom per continuar."
+    },
+    "panel": {
+      "evaluation": "Avaluació",
+      "moveList": "Jugades",
+      "white": "Blanques",
+      "black": "Negres",
+      "noMoves": "Encara no hi ha jugades.",
+      "analyzing": "S'està analitzant…",
+      "whiteAdvantage": "Avantatge blanques",
+      "blackAdvantage": "Avantatge negres",
+      "equal": "Posició equilibrada",
+      "showEvaluation": "Veure avaluació",
+      "hideEvaluation": "Ocultar avaluació"
+    },
+    "analysis": {
+      "title": "Anàlisi de partida",
+      "intro": "Enganxa o carrega un PGN per revisar cada jugada amb Stockfish: símbols estàndard, avaluació i navegació per la partida.",
+      "pgnFromPlay": "Partida carregada del tauler. Prem «Analitzar partida» quan vulguis.",
+      "pgnFromPlayDismiss": "Tancar avís",
+      "backChess": "← Jugar contra Stockfish",
+      "inputModeLabel": "Font de partida",
+      "inputModePgn": "PGN",
+      "inputModeEditor": "Editor",
+      "editorHelp": "Mou les peces al tauler per construir la partida; l'anàlisi utilitzarà el PGN generat.",
+      "editorReset": "Reiniciar editor",
+      "editorRequired": "Fes almenys una jugada a l'editor abans d'analitzar.",
+      "pgnLabel": "PGN de la partida",
+      "uploadPgn": "Pujar fitxer PGN",
+      "pgnPlaceholder": "[Event \"...\"]\n\n1. e4 e5 2. Cf3 ...",
+      "pgnRequired": "Introdueix un PGN per analitzar.",
+      "pgnInvalid": "No s'ha pogut llegir el PGN. Comprova el format.",
+      "analyze": "Analitzar partida",
+      "analyzing": "S'està analitzant…",
+      "cancel": "Cancel·lar",
+      "progress": "Jugada {{current}} de {{total}}",
+      "summary": "Resum",
+      "quality": {
+        "brilliant": "Brillant",
+        "best": "Millor",
+        "good": "Bona",
+        "interesting": "Interessant",
+        "dubious": "Dubtosa",
+        "bad": "Dolenta",
+        "veryBad": "Molt dolenta"
+      },
+      "legend": {
+        "moves": "Jugades",
+        "eval": "Posició",
+        "result": "Resultat",
+        "evalHint": {
+          "equal": "Igualtat",
+          "whiteSlight": "Avantatge lleu blanques",
+          "blackSlight": "Avantatge lleu negres",
+          "whiteDecisive": "Avantatge decisiu blanques",
+          "blackDecisive": "Avantatge decisiu negres"
+        },
+        "resultHint": {
+          "whiteWins": "Guanyen blanques",
+          "blackWins": "Guanyen negres",
+          "draw": "Taules",
+          "ongoing": "Partida en curs"
+        }
+      },
+      "startPosition": "Posició inicial",
+      "ply": "{{ply}} / {{total}}",
+      "goStart": "Anar a l'inici",
+      "goPrev": "Jugada anterior",
+      "goNext": "Jugada següent",
+      "goEnd": "Anar al final",
+      "copyFen": "Copiar FEN",
+      "fenCopied": "Copiat",
+      "downloadPositionImage": "Descarregar imatge de la posició actual",
+      "downloadAnalyzedPgn": "Descarregar PGN amb anàlisi",
+      "pgnComment": {
+        "startEval": "Aval. inicial",
+        "bestMove": "Millor jugada",
+        "depth": "Profunditat"
+      },
+      "depthLabel": "Profunditat de l'anàlisi",
+      "rotateBoard": "Girar el tauler",
+      "unknownPlayer": "?",
+      "arrowBest": "Millor jugada",
+      "arrowPlayed": "Jugada realitzada",
+      "chartTabMoves": "Jugades",
+      "chartTabEval": "Avaluació",
+      "chartAxisMove": "Jugada",
+      "chartAxisQuality": "Qualitat",
+      "chartAxisPly": "Ply",
+      "chartAxisEval": "Aval.",
+      "chartMoveNumber": "Jugada {{n}}",
+      "chartPly": "Ply {{ply}}",
+      "chartEval": "Avaluació",
+      "newAnalysis": "Nova partida"
+    },
+    "status": {
+      "check": "Escac.",
+      "yourTurnWhite": "El teu torn (blanques).",
+      "yourTurnBlack": "El teu torn (negres).",
+      "engineThinking": "Stockfish està pensant…",
+      "mateLost": "Escac i mat. Guanya Stockfish.",
+      "mateWon": "Escac i mat. Has guanyat!",
+      "drawStalemate": "Taules per ofeg.",
+      "drawRepetition": "Taules per repetició.",
+      "drawMaterial": "Taules per material insuficient.",
+      "draw": "Taules."
+    }
+  },
+  "terms": {
+    "title": "Termes de Servei — @devrfc83",
+    "website": "Lloc web:",
+    "updated": "Darrera actualització: 25 de maig de 2026",
+    "footer": "@devrfc83 — Xile",
+    "contactForm": "formulari de contacte",
+    "summaryNotice": "Aquesta és una versió resumida. La versió legal completa i vinculant està disponible només en castellà.",
+    "summaryLink": "Llegir els termes complets en castellà",
+    "summary": [
+      { "title": "Acceptació", "body": "En utilitzar aquest lloc acceptes aquests termes. Si no hi estàs d'acord, no utilitzis el lloc." },
+      { "title": "Servei", "body": "Lloc personal amb blog, portafoli, projectes de codi obert, butlletí i formulari de contacte." },
+      { "title": "Propietat intel·lectual", "body": "El contingut original pertany al titular de @devrfc83. El codi descarregable es regeix per la llicència indicada a cada projecte." },
+      { "title": "Privacitat", "body": "Només es recopilen les dades que proporciones voluntàriament. Sense galetes de seguiment ni analítiques de tercers." },
+      { "title": "Responsabilitat", "body": "El lloc i les descàrregues s'ofereixen «tal com són». El titular no es fa responsable de danys derivats de l'ús." },
+      { "title": "Contacte", "body": "Per a consultes sobre aquests termes, utilitza el formulari de contacte del lloc." }
+    ],
+    "full": []
+  },
+  "privacy": {
+    "title": "Política de Privacitat — @devrfc83",
+    "website": "Lloc web:",
+    "updated": "Darrera actualització: 25 de maig de 2026",
+    "footer": "@devrfc83 — Xile",
+    "contactForm": "formulari de contacte",
+    "summaryNotice": "Aquesta és una versió resumida. La versió legal completa i vinculant està disponible només en castellà.",
+    "summaryLink": "Llegir la política completa en castellà",
+    "table": { "data": "Dada", "purpose": "Finalitat" },
+    "summary": [
+      { "title": "Responsable", "body": "El titular de @devrfc83, amb presència al Xile. Consultes mitjançant el formulari de contacte." },
+      { "title": "Dades recopilades", "body": "Només dades que proporciones voluntàriament: contacte (nom, correu, missatge), butlletí (correu) i mètriques HTTP agregades sense identificació individual." },
+      { "title": "Ús", "body": "Respondre consultes, enviar el butlletí i monitoratge tècnic. Sense publicitat ni perfilat." },
+      { "title": "Tercers", "body": "Les dades no es venen ni es comparteixen, llevat d'obligació legal. El proveïdor de correu actua només com a encarregat del tractament." },
+      { "title": "Els teus drets", "body": "Pots accedir, rectificar, suprimir les teves dades i revocar el consentiment contactant el titular." },
+      { "title": "Base legal", "body": "Consentiment voluntari. Operació conforme a la Llei N.º 19.628 del Xile." }
+    ],
+    "full": [],
+    "dataRows": [
+      { "data": "Correu electrònic (contacte)", "purpose": "Respondre la teva consulta" },
+      { "data": "Correu electrònic (butlletí)", "purpose": "Enviar contingut del lloc" },
+      { "data": "Nom i missatge", "purpose": "Gestionar la comunicació" },
+      { "data": "Mètriques HTTP", "purpose": "Monitoratge tècnic del servidor" }
+    ]
+  }
+}

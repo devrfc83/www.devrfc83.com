@@ -1,0 +1,370 @@
+{
+  "meta": {
+    "siteName": "Rodrigo Fuentealba Cartes",
+    "defaultTitle": "Rodrigo Fuentealba Cartes — @devrfc83"
+  },
+  "common": {
+    "nav": {
+      "home": "Home",
+      "about": "Over mij",
+      "services": "Diensten",
+      "contact": "Contact"
+    },
+    "footer": {
+      "copyright": "Copyright © {{year}} Rodrigo Fuentealba Cartes — Alle rechten voorbehouden.",
+      "legal": "Bekijk onze <termsLink>servicevoorwaarden</termsLink> en ons <privacyLink>privacybeleid</privacyLink>."
+    },
+    "notFound": {
+      "title": "Pagina niet gevonden",
+      "body": "De pagina die je zoekt bestaat niet.",
+      "back": "Terug naar home"
+    },
+    "language": "Taal",
+    "backHome": "← Home",
+    "profileAlt": "Profielfoto van Rodrigo Fuentealba Cartes",
+    "profileAltShort": "Profielfoto",
+    "socialNav": "Sociale media"
+  },
+  "home": {
+    "bio": "Informatica-ingenieur met meer dan 20 jaar ervaring in de software-industrie."
+  },
+  "about": {
+    "subtitle": "Ingenieur en informatica-ingenieur met meer dan 20 jaar ervaring in de sector. Schaakspeler, motorrijder, radio-amateur en sporter.",
+    "historyTitle": "Achtergrond",
+    "history": "Ik ben geboren op 22 februari 1983 in Talcahuano, regio Bío-Bío, Chili. Ik studeerde af als programmeeranalist in 2008 en later als ingenieur in technische wetenschappen en informatica-ingenieur in 2024, met onderscheiding <em>Cum Laude</em>. Ik woon momenteel in de stad Talca, regio Maule, Chili.",
+    "experienceTitle": "Ervaring",
+    "experience": "Ik heb meer dan 20 jaar ervaring in de software-industrie en werk aan projecten van uiteenlopende aard, van webapplicaties tot bedrijfsmanagementsystemen.",
+    "interestsTitle": "Interesses",
+    "interestsIntro": "Naast mijn professionele werk heb ik diverse interesses:",
+    "interestChessNote": "(hier kun je <analysisLink>je partijen analyseren</analysisLink>).",
+    "interestElectronicsPlain": "Elektriciteit en elektronica.",
+    "kickboxingNote": "Kickboksen: ik train bij <brutalStrikerLink>Brutal Striker Talca</brutalStrikerLink>.",
+    "radioClubNote": "<radioLink>Radio-amateurisme</radioLink>: ik behoor tot de <radioClubLink>Radio Club Lircay de Talca CE4LY</radioClubLink>, waarvan ik ook de website onderhoud.",
+    "interests": [
+      "Talen (Engels, Duits, Italiaans, Portugees).",
+      "Reizen.",
+      "Motorrijden.",
+      "DSLR-fotografie.",
+      "Piano en gitaar.",
+      "Gymnastiek.",
+      "Calisthenics en gewichtheffen.",
+      "Videogames en retrogaming."
+    ]
+  },
+  "services": {
+    "title": "Diensten",
+    "intro": "Ik bied onafhankelijke professionele diensten aan op het gebied van Data Science, informatica-engineering en Projectmanagement. Elk project wordt persoonlijk benaderd, met oplossingen op maat van de specifieke behoeften van de klant en de context van zijn of haar bedrijf. Heb je een project in gedachten, aarzel dan niet om <contactLink>contact op te nemen</contactLink>.",
+    "items": {
+      "dataScience": {
+        "name": "Data Science",
+        "description": "Analyse, modellering en interpretatie van gegevens om bruikbare inzichten te halen, voorspellende modellen te ontwikkelen en besluitvorming op basis van bewijs te ondersteunen."
+      },
+      "software": {
+        "name": "Software-engineering",
+        "description": "Ontwerp, ontwikkeling en onderhoud van softwareoplossingen, van systeemarchitectuur tot implementatie, met focus op kwaliteit, schaalbaarheid en best practices."
+      },
+      "databases": {
+        "name": "Databases",
+        "description": "Ontwerp van entiteit-relatie modellen voor ontwikkelings- en data-analyseprojecten."
+      },
+      "pm": {
+        "name": "Projectmanagement",
+        "description": "Planning, coördinatie en opvolging van technologieprojecten, met naleving van deadlines, middelen en doelstellingen volgens agile of traditionele methodologieën."
+      },
+      "consulting": {
+        "name": "Consultancy",
+        "description": "Gespecialiseerd technisch advies op het gebied van technologie en informatiesystemen, gericht op het optimaliseren van processen, het evalueren van oplossingen en het begeleiden van strategische beslissingen."
+      },
+      "training": {
+        "name": "Training",
+        "description": "Praktische, gepersonaliseerde training in tools, talen en technologische methodologieën, voor teams en professionals die vaardigheden op het gebied van data en software willen ontwikkelen of versterken."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Schrijf me en ik antwoord zo snel mogelijk. Velden gemarkeerd met <required>*</required> zijn verplicht.",
+    "success": "Bericht succesvol verzonden. Bedankt voor je bericht.",
+    "error": "Het bericht kon niet worden verzonden. Probeer het over een paar minuten opnieuw.",
+    "honeypot": "Vul dit veld niet in:",
+    "name": "Naam",
+    "email": "E-mailadres",
+    "subject": "Onderwerp",
+    "message": "Bericht",
+    "placeholders": {
+      "name": "Je naam",
+      "email": "jij@email.com",
+      "subject": "Reden van je bericht",
+      "message": "Schrijf hier je bericht…"
+    },
+    "sending": "Verzenden…",
+    "submit": "Bericht verzenden",
+    "captcha": {
+      "label": "Verificatie",
+      "another": "Andere vraag",
+      "ariaRefresh": "Genereer een andere verificatievraag",
+      "question": "Hoeveel is {{a}} + {{b}}?",
+      "placeholder": "Je antwoord",
+      "wait": "Wacht even en probeer het opnieuw.",
+      "wrong": "Dat antwoord is niet correct. Probeer het opnieuw."
+    }
+  },
+  "quality": {
+    "title": "Kwaliteit",
+    "intro": "Softwarekwaliteitsborging is het systematische proces dat ervoor zorgt dat elk digitaal product voldoet aan de hoogste normen op het gebied van prestaties, beveiliging en gebruikerservaring voordat het bij jou terechtkomt.",
+    "items": {
+      "requirements": { "name": "Vereisten", "description": "Documentatie van zakelijke behoeften." },
+      "testPlan": { "name": "Testplan", "description": "Beschrijving van functionaliteiten." },
+      "databases": { "name": "Databases", "description": "Organisatie van informatie." },
+      "ui": { "name": "Grafische interfaces", "description": "Presentatie van informatie." },
+      "logic": { "name": "Applicatielogica", "description": "Ontwikkeling van functionaliteit." },
+      "brand": { "name": "Merkidentiteit", "description": "Implementatie van het bedrijfsimago." },
+      "qa": { "name": "Kwaliteitscontrole", "description": "Validatie van functionaliteiten volgens het testplan." },
+      "delivery": { "name": "Productie-release", "description": "Oplevering van het eindproduct aan de klant." }
+    }
+  },
+  "products": {
+    "title": "Producten",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Catalogus van beschikbare oplossingen.",
+    "cards": [
+      { "name": "Product Alpha", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus." },
+      { "name": "Product Beta", "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur. Donec sed odio dui." },
+      { "name": "Product Gamma", "description": "Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare." },
+      { "name": "Product Delta", "description": "Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper." },
+      { "name": "Product Epsilon", "description": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus." }
+    ]
+  },
+  "projects": {
+    "title": "Projecten",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Uitgelichte werken en samenwerkingen.",
+    "cards": [
+      { "name": "Project Atlas", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet." },
+      { "name": "Project Boreal", "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec id elit non mi porta." },
+      { "name": "Project Zenit", "description": "Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet." },
+      { "name": "Project Delta", "description": "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus." },
+      { "name": "Project Aegis", "description": "Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit." },
+      { "name": "Project Forge", "description": "Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus tellus ac cursus." },
+      { "name": "Project Horizon", "description": "Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod consectetur." }
+    ]
+  },
+  "technology": {
+    "title": "Technologie",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Stack en tools die ik gebruik.",
+    "cards": [
+      { "name": "TypeScript", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Statische typing voor schaalbare applicaties." },
+      { "name": "React", "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur. Modulaire gebruikersinterfaces." },
+      { "name": "Node.js", "description": "Donec ullamcorper nulla non metus auctor fringilla. Server-side runtime-omgevingen." },
+      { "name": "PostgreSQL", "description": "Cras mattis consectetur purus sit amet fermentum. Robuuste relationele databases." },
+      { "name": "Docker", "description": "Nullam quis risus eget urna mollis ornare vel eu leo. Containers en reproduceerbare deployment." },
+      { "name": "Linux", "description": "Vestibulum id ligula porta felis euismod semper. Besturingssystemen en serverbeheer." },
+      { "name": "Git", "description": "Morbi leo risus, porta ac consectetur ac. Versiebeheer en teamworkflows." },
+      { "name": "CI/CD", "description": "Fusce dapibus, tellus ac cursus commodo. Continue integratie en softwarelevering." }
+    ]
+  },
+  "coffee": {
+    "title": "Koffie",
+    "intro": "Thuisrecepten met mokken, eetlepels en theelepels.",
+    "items": {
+      "espresso": { "name": "Espresso", "recipe": "Doe 2 eetlepels koffie erin en zet een espressoformaat kopje." },
+      "espressoDoppio": { "name": "Espresso Doppio", "recipe": "Doe 4 eetlepels koffie erin en zet een halve normale kop." },
+      "ristretto": { "name": "Ristretto", "recipe": "Doe 2 eetlepels koffie erin en zet een halve espressoformaat kop." },
+      "lungo": { "name": "Lungo", "recipe": "Doe 2 eetlepels koffie erin en zet een halve normale kop." },
+      "americano": { "name": "Americano", "recipe": "Een espresso en 3/4 kop heet water." },
+      "longBlack": { "name": "Long Black", "recipe": "3/4 kop heet water en giet daar een espresso bovenop." },
+      "latte": { "name": "Latte", "recipe": "1 espresso + 1 mok gestoomde melk met weinig schuim." },
+      "flatWhite": { "name": "Flat White", "recipe": "1 espresso + ½ mok microgeschuimde melk." },
+      "macchiato": { "name": "Macchiato", "recipe": "1 espresso met melkschuim erbovenop." },
+      "caramelMacchiato": { "name": "Caramel Macchiato", "recipe": "1 espresso + 1 eetlepel karamelsiroop + 1/2 mok gestoomde melk en schuim erbovenop." },
+      "cappuccino": { "name": "Cappuccino", "recipe": "1 espresso + 2 eetlepels gestoomde melk + 2 eetlepels schuim." },
+      "mochaccino": { "name": "Mokaccino", "recipe": "1 espresso + 1 eetlepel cacao- of chocoladepoeder + gestoomde melk tot halve mok." },
+      "affogato": { "name": "Affogato", "recipe": "1 portie vanille-ijs + 1 hete espresso erover." },
+      "viennese": { "name": "Weense", "recipe": "1 espresso + 2 eetlepels slagroom." },
+      "irish": { "name": "Ierse", "recipe": "1 mok hete filterkoffie + 1 eetlepel Ierse whiskey + 1 theelepel suiker; 2 eetlepels room erop." },
+      "frappe": { "name": "Frappé", "recipe": "1 eetlepel oploskoffie + 1 eetlepel koud water (schudden), ijs en melk tot de mok vol is." }
+    }
+  },
+  "blog": {
+    "underConstruction": "Deze sectie is in aanbouw."
+  },
+  "chess": {
+    "title": "Schaken",
+    "intro": "Persoonlijk project: online spelen tegen Stockfish. (Stockfish wordt binnenkort vervangen door een engine die speelt zoals ik.)",
+    "analysisLink": "Partijanalyse (PGN) →",
+    "loadingEngine": "Engine laden…",
+    "playAs": "Speel met",
+    "white": "Wit",
+    "black": "Zwart",
+    "engineError": "Stockfish kon niet worden geladen.",
+    "moveError": "De zet van de engine kon niet worden opgehaald.",
+    "resetError": "De engine kon niet worden gereset.",
+    "stockfishCredit": "<stockfishLink>Stockfish</stockfishLink>-engine (GPLv3)",
+    "sounds": {
+      "label": "Geluid",
+      "on": "Geluid aan",
+      "off": "Geluid uit",
+      "mute": "Geluid dempen",
+      "unmute": "Geluid inschakelen"
+    },
+    "pgn": {
+      "download": "PGN downloaden",
+      "title": "Partij exporteren",
+      "prompt": "Vul je naam in voor het PGN-bestand.",
+      "nameLabel": "Je naam",
+      "placeholder": "Voor- en achternaam",
+      "confirm": "Downloaden",
+      "analyze": "Partij analyseren",
+      "confirmAnalyze": "Naar analyse",
+      "cancel": "Annuleren",
+      "noMoves": "Geen zetten om te exporteren.",
+      "nameRequired": "Vul je naam in om door te gaan."
+    },
+    "panel": {
+      "evaluation": "Evaluatie",
+      "moveList": "Zetten",
+      "white": "Wit",
+      "black": "Zwart",
+      "noMoves": "Nog geen zetten.",
+      "analyzing": "Analyseren…",
+      "whiteAdvantage": "Voordeel wit",
+      "blackAdvantage": "Voordeel zwart",
+      "equal": "Gelijke stand",
+      "showEvaluation": "Evaluatie tonen",
+      "hideEvaluation": "Evaluatie verbergen"
+    },
+    "analysis": {
+      "title": "Partijanalyse",
+      "intro": "Plak of laad een PGN om elke zet met Stockfish te bekijken: standaardsymbolen, evaluatie en navigatie door de partij.",
+      "pgnFromPlay": "Partij geladen van het bord. Druk op «Partij analyseren» wanneer je klaar bent.",
+      "pgnFromPlayDismiss": "Melding sluiten",
+      "backChess": "← Speel tegen Stockfish",
+      "inputModeLabel": "Partijbron",
+      "inputModePgn": "PGN",
+      "inputModeEditor": "Editor",
+      "editorHelp": "Verplaats stukken op het bord om de partij op te bouwen; de analyse gebruikt de gegenereerde PGN.",
+      "editorReset": "Editor resetten",
+      "editorRequired": "Speel minstens één zet in de editor voordat je analyseert.",
+      "pgnLabel": "PGN van de partij",
+      "uploadPgn": "PGN-bestand uploaden",
+      "pgnPlaceholder": "[Event \"...\"]\n\n1. e4 e5 2. Pf3 ...",
+      "pgnRequired": "Voer een PGN in om te analyseren.",
+      "pgnInvalid": "PGN kon niet worden gelezen. Controleer het formaat.",
+      "analyze": "Partij analyseren",
+      "analyzing": "Bezig met analyseren…",
+      "cancel": "Annuleren",
+      "progress": "Zet {{current}} van {{total}}",
+      "summary": "Samenvatting",
+      "quality": {
+        "brilliant": "Briljant",
+        "best": "Beste",
+        "good": "Goed",
+        "interesting": "Interessant",
+        "dubious": "Twijfelachtig",
+        "bad": "Slecht",
+        "veryBad": "Zeer slecht"
+      },
+      "legend": {
+        "moves": "Zetten",
+        "eval": "Stelling",
+        "result": "Uitslag",
+        "evalHint": {
+          "equal": "Gelijk",
+          "whiteSlight": "Klein voordeel wit",
+          "blackSlight": "Klein voordeel zwart",
+          "whiteDecisive": "Beslissend voordeel wit",
+          "blackDecisive": "Beslissend voordeel zwart"
+        },
+        "resultHint": {
+          "whiteWins": "Wit wint",
+          "blackWins": "Zwart wint",
+          "draw": "Remise",
+          "ongoing": "Partij bezig"
+        }
+      },
+      "startPosition": "Beginpositie",
+      "ply": "{{ply}} / {{total}}",
+      "goStart": "Naar het begin",
+      "goPrev": "Vorige zet",
+      "goNext": "Volgende zet",
+      "goEnd": "Naar het einde",
+      "copyFen": "FEN kopiëren",
+      "fenCopied": "Gekopieerd",
+      "downloadPositionImage": "Afbeelding van huidige stelling downloaden",
+      "downloadAnalyzedPgn": "PGN met analyse downloaden",
+      "pgnComment": {
+        "startEval": "Begin eval.",
+        "bestMove": "Beste zet",
+        "depth": "Diepte"
+      },
+      "depthLabel": "Analysediepte",
+      "rotateBoard": "Bord draaien",
+      "unknownPlayer": "?",
+      "arrowBest": "Beste zet",
+      "arrowPlayed": "Gespeelde zet",
+      "chartTabMoves": "Zetten",
+      "chartTabEval": "Evaluatie",
+      "chartAxisMove": "Zet",
+      "chartAxisQuality": "Kwaliteit",
+      "chartAxisPly": "Ply",
+      "chartAxisEval": "Eval.",
+      "chartMoveNumber": "Zet {{n}}",
+      "chartPly": "Ply {{ply}}",
+      "chartEval": "Evaluatie",
+      "newAnalysis": "Nieuwe partij"
+    },
+    "status": {
+      "check": "Schaak.",
+      "yourTurnWhite": "Jij bent aan zet (wit).",
+      "yourTurnBlack": "Jij bent aan zet (zwart).",
+      "engineThinking": "Stockfish denkt na…",
+      "mateLost": "Schaakmat. Stockfish wint.",
+      "mateWon": "Schaakmat. Jij wint!",
+      "drawStalemate": "Remise door pat.",
+      "drawRepetition": "Remise door herhaling.",
+      "drawMaterial": "Remise door onvoldoende materiaal.",
+      "draw": "Remise."
+    }
+  },
+  "terms": {
+    "title": "Servicevoorwaarden — @devrfc83",
+    "website": "Website:",
+    "updated": "Laatst bijgewerkt: 25 mei 2026",
+    "footer": "@devrfc83 — Chili",
+    "contactForm": "contactformulier",
+    "summaryNotice": "Dit is een samenvattende versie. De volledige, juridisch bindende versie is alleen beschikbaar in het Spaans.",
+    "summaryLink": "Lees de volledige voorwaarden in het Spaans",
+    "summary": [
+      { "title": "Acceptatie", "body": "Door deze site te gebruiken accepteer je deze voorwaarden. Als je het niet eens bent, gebruik de site dan niet." },
+      { "title": "Dienst", "body": "Persoonlijke site met blog, portfolio, open-sourceprojecten, nieuwsbrief en contactformulier." },
+      { "title": "Intellectueel eigendom", "body": "Originele inhoud behoort toe aan de eigenaar van @devrfc83. Downloadbare code valt onder de licentie vermeld in elk project." },
+      { "title": "Privacy", "body": "Er worden alleen gegevens verzameld die je vrijwillig verstrekt. Geen trackingcookies of analyses van derden." },
+      { "title": "Aansprakelijkheid", "body": "De site en downloads worden aangeboden «zoals ze zijn». De eigenaar is niet aansprakelijk voor schade door gebruik." },
+      { "title": "Contact", "body": "Voor vragen over deze voorwaarden gebruik je het contactformulier van de site." }
+    ],
+    "full": []
+  },
+  "privacy": {
+    "title": "Privacybeleid — @devrfc83",
+    "website": "Website:",
+    "updated": "Laatst bijgewerkt: 25 mei 2026",
+    "footer": "@devrfc83 — Chili",
+    "contactForm": "contactformulier",
+    "summaryNotice": "Dit is een samenvattende versie. De volledige, juridisch bindende versie is alleen beschikbaar in het Spaans.",
+    "summaryLink": "Lees het volledige privacybeleid in het Spaans",
+    "table": { "data": "Gegeven", "purpose": "Doel" },
+    "summary": [
+      { "title": "Verantwoordelijke", "body": "De eigenaar van @devrfc83, gevestigd in Chili. Vragen via het contactformulier." },
+      { "title": "Verzamelde gegevens", "body": "Alleen gegevens die je vrijwillig verstrekt: contact (naam, e-mail, bericht), nieuwsbrief (e-mail) en geaggregeerde HTTP-statistieken zonder individuele identificatie." },
+      { "title": "Gebruik", "body": "Om vragen te beantwoorden, de nieuwsbrief te versturen en technische monitoring. Geen reclame of profilering." },
+      { "title": "Derden", "body": "Gegevens worden niet verkocht of gedeeld, behalve bij wettelijke verplichting. De e-mailprovider treedt alleen op als verwerker." },
+      { "title": "Jouw rechten", "body": "Je kunt je gegevens inzien, corrigeren, verwijderen en je toestemming intrekken door contact op te nemen met de eigenaar." },
+      { "title": "Rechtsgrond", "body": "Vrijwillige toestemming. Werking conform de Chileense wet nr. 19.628." }
+    ],
+    "full": [],
+    "dataRows": [
+      { "data": "E-mail (contact)", "purpose": "Je vraag beantwoorden" },
+      { "data": "E-mail (nieuwsbrief)", "purpose": "Site-inhoud versturen" },
+      { "data": "Naam en bericht", "purpose": "Communicatie beheren" },
+      { "data": "HTTP-statistieken", "purpose": "Technische servermonitoring" }
+    ]
+  }
+}

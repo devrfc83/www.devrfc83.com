@@ -1,0 +1,370 @@
+{
+  "meta": {
+    "siteName": "Rodrigo Fuentealba Cartes",
+    "defaultTitle": "Rodrigo Fuentealba Cartes — @devrfc83"
+  },
+  "common": {
+    "nav": {
+      "home": "Startseite",
+      "about": "Über mich",
+      "services": "Dienstleistungen",
+      "contact": "Kontakt"
+    },
+    "footer": {
+      "copyright": "Copyright © {{year}} Rodrigo Fuentealba Cartes — Alle Rechte vorbehalten.",
+      "legal": "Lesen Sie unsere <termsLink>Nutzungsbedingungen</termsLink> und unsere <privacyLink>Datenschutzerklärung</privacyLink>."
+    },
+    "notFound": {
+      "title": "Seite nicht gefunden",
+      "body": "Die gesuchte Seite existiert nicht.",
+      "back": "Zurück zur Startseite"
+    },
+    "language": "Sprache",
+    "backHome": "← Startseite",
+    "profileAlt": "Profilfoto von Rodrigo Fuentealba Cartes",
+    "profileAltShort": "Profilfoto",
+    "socialNav": "Soziale Netzwerke"
+  },
+  "home": {
+    "bio": "Informatikingenieur mit mehr als 20 Jahren Erfahrung in der Softwareindustrie."
+  },
+  "about": {
+    "subtitle": "Diplom-Ingenieur und Informatikingenieur mit mehr als 20 Jahren Branchenerfahrung. Schachspieler, Motorradfahrer, Funkamateur und Sportler.",
+    "historyTitle": "Geschichte",
+    "history": "Ich wurde am 22. Februar 1983 in Talcahuano, Región del Bío-Bío, Chile, geboren. 2008 schloss ich das Studium als Programmieranalyst ab und 2024 als Lizentiat der Ingenieurwissenschaften und Informatikingenieur mit der Auszeichnung <em>Cum Laude</em>. Derzeit lebe ich in der Stadt Talca, Región del Maule, Chile.",
+    "experienceTitle": "Berufserfahrung",
+    "experience": "Ich verfüge über mehr als 20 Jahre Erfahrung in der Softwareindustrie und habe an Projekten unterschiedlicher Art mitgewirkt, von Webanwendungen bis zu Unternehmensmanagementsystemen.",
+    "interestsTitle": "Interessen",
+    "interestsIntro": "Neben meiner beruflichen Tätigkeit habe ich verschiedene Interessen:",
+    "interestChessNote": "(hier kannst du <analysisLink>deine Partien analysieren</analysisLink>).",
+    "interestElectronicsPlain": "Elektrizität und Elektronik.",
+    "kickboxingNote": "Kickboxen: Ich trainiere bei <brutalStrikerLink>Brutal Striker Talca</brutalStrikerLink>.",
+    "radioClubNote": "<radioLink>Funkamateurfunk</radioLink>: Ich gehöre zum <radioClubLink>Radio Club Lircay de Talca CE4LY</radioClubLink>, dessen Website ich ebenfalls betreue.",
+    "interests": [
+      "Sprachen (Englisch, Deutsch, Italienisch, Portugiesisch).",
+      "Reisen.",
+      "Motorradfahren.",
+      "DSLR-Fotografie.",
+      "Klavier und Gitarre.",
+      "Gymnastik.",
+      "Calisthenics und Gewichtheben.",
+      "Videospiele und Retrogaming."
+    ]
+  },
+  "services": {
+    "title": "Dienstleistungen",
+    "intro": "Ich biete professionelle freiberufliche Dienstleistungen in den Bereichen Data Science, Informatikingenieurwesen und Projektmanagement. Jedes Projekt wird individuell angegangen; die Lösungen werden an die spezifischen Bedürfnisse des Kunden und den Kontext seines Unternehmens angepasst. Wenn Sie ein Projekt im Sinn haben, <contactLink>kontaktieren</contactLink> Sie mich gerne.",
+    "items": {
+      "dataScience": {
+        "name": "Data Science",
+        "description": "Analyse, Modellierung und Interpretation von Daten, um verwertbare Erkenntnisse zu gewinnen, prädiktive Modelle zu entwickeln und evidenzbasierte Entscheidungen zu unterstützen."
+      },
+      "software": {
+        "name": "Softwareentwicklung",
+        "description": "Entwurf, Entwicklung und Wartung von Softwarelösungen, von der Systemarchitektur bis zur Implementierung, mit Fokus auf Qualität, Skalierbarkeit und bewährte Praktiken."
+      },
+      "databases": {
+        "name": "Datenbanken",
+        "description": "Entwurf von Entitäts-Beziehungsmodellen für Entwicklungs- und Datenanalyseprojekte."
+      },
+      "pm": {
+        "name": "Projektmanagement",
+        "description": "Planung, Koordination und Nachverfolgung technologischer Projekte unter Einhaltung von Fristen, Ressourcen und Zielen nach agilen oder klassischen Methoden."
+      },
+      "consulting": {
+        "name": "Beratung",
+        "description": "Fachberatung in Technologie und Informationssystemen zur Optimierung von Prozessen, Bewertung von Lösungen und strategischer Entscheidungsfindung."
+      },
+      "training": {
+        "name": "Schulung",
+        "description": "Praktische und individuelle Schulungen zu Tools, Sprachen und technologischen Methoden für Teams und Fachkräfte, die Kompetenzen im Bereich Daten und Software auf- oder ausbauen möchten."
+      }
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "intro": "Schreiben Sie mir; ich antworte so schnell wie möglich. Mit <required>*</required> markierte Felder sind Pflichtfelder.",
+    "success": "Nachricht erfolgreich gesendet. Vielen Dank für Ihre Kontaktaufnahme.",
+    "error": "Die Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es in einigen Minuten erneut.",
+    "honeypot": "Dieses Feld nicht ausfüllen:",
+    "name": "Name",
+    "email": "E-Mail",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "placeholders": {
+      "name": "Ihr Name",
+      "email": "ihre@email.de",
+      "subject": "Grund der Nachricht",
+      "message": "Schreiben Sie hier Ihre Nachricht…"
+    },
+    "sending": "Wird gesendet…",
+    "submit": "Nachricht senden",
+    "captcha": {
+      "label": "Verifizierung",
+      "another": "Andere Frage",
+      "ariaRefresh": "Andere Verifizierungsfrage generieren",
+      "question": "Wie viel ist {{a}} + {{b}}?",
+      "placeholder": "Ihre Antwort",
+      "wait": "Bitte warten Sie einen Moment und versuchen Sie es erneut.",
+      "wrong": "Die Antwort ist nicht richtig. Bitte versuchen Sie es erneut."
+    }
+  },
+  "quality": {
+    "title": "Qualität",
+    "intro": "Software-Qualitätssicherung ist der systematische Prozess, der gewährleistet, dass jedes digitale Produkt die höchsten Standards an Leistung, Sicherheit und Benutzererfahrung erfüllt, bevor es in Ihre Hände gelangt.",
+    "items": {
+      "requirements": { "name": "Anforderungen", "description": "Dokumentation der Geschäftsanforderungen." },
+      "testPlan": { "name": "Testplan", "description": "Beschreibung der Funktionalitäten." },
+      "databases": { "name": "Datenbanken", "description": "Organisation von Informationen." },
+      "ui": { "name": "Grafische Oberflächen", "description": "Darstellung von Informationen." },
+      "logic": { "name": "Anwendungslogik", "description": "Entwicklung von Funktionalitäten." },
+      "brand": { "name": "Markenidentität", "description": "Umsetzung des Corporate Designs." },
+      "qa": { "name": "Qualitätskontrolle", "description": "Validierung der Funktionalitäten gemäß Testplan." },
+      "delivery": { "name": "Produktivsetzung", "description": "Übergabe des Endprodukts an den Kunden." }
+    }
+  },
+  "products": {
+    "title": "Produkte",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Katalog verfügbarer Lösungen.",
+    "cards": [
+      { "name": "Produkt Alpha", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus." },
+      { "name": "Produkt Beta", "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur. Donec sed odio dui." },
+      { "name": "Produkt Gamma", "description": "Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare." },
+      { "name": "Produkt Delta", "description": "Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper." },
+      { "name": "Produkt Epsilon", "description": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus." }
+    ]
+  },
+  "projects": {
+    "title": "Projekte",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ausgewählte Arbeiten und Kooperationen.",
+    "cards": [
+      { "name": "Projekt Atlas", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet." },
+      { "name": "Projekt Boreal", "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec id elit non mi porta." },
+      { "name": "Projekt Zenit", "description": "Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet." },
+      { "name": "Projekt Delta", "description": "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus." },
+      { "name": "Projekt Ägide", "description": "Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit." },
+      { "name": "Projekt Schmiede", "description": "Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus tellus ac cursus." },
+      { "name": "Projekt Horizont", "description": "Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod consectetur." }
+    ]
+  },
+  "technology": {
+    "title": "Technologie",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Stack und Tools, die ich verwende.",
+    "cards": [
+      { "name": "TypeScript", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Statische Typisierung für skalierbare Anwendungen." },
+      { "name": "React", "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur. Modulare Benutzeroberflächen." },
+      { "name": "Node.js", "description": "Donec ullamcorper nulla non metus auctor fringilla. Serverseitige Laufzeitumgebungen." },
+      { "name": "PostgreSQL", "description": "Cras mattis consectetur purus sit amet fermentum. Robuste relationale Datenbanken." },
+      { "name": "Docker", "description": "Nullam quis risus eget urna mollis ornare vel eu leo. Container und reproduzierbare Bereitstellung." },
+      { "name": "Linux", "description": "Vestibulum id ligula porta felis euismod semper. Betriebssysteme und Serveradministration." },
+      { "name": "Git", "description": "Morbi leo risus, porta ac consectetur ac. Versionskontrolle und Team-Workflows." },
+      { "name": "CI/CD", "description": "Fusce dapibus, tellus ac cursus commodo. Kontinuierliche Integration und Softwareauslieferung." }
+    ]
+  },
+  "coffee": {
+    "title": "Kaffee",
+    "intro": "Rezepte für zuhause mit Tassen, Esslöffeln und Teelöffeln.",
+    "items": {
+      "espresso": { "name": "Espresso", "recipe": "2 Esslöffel Kaffee einfüllen und eine espresso-große Tasse extrahieren." },
+      "espressoDoppio": { "name": "Espresso Doppio", "recipe": "4 Esslöffel Kaffee einfüllen und eine halbe normale Tasse extrahieren." },
+      "ristretto": { "name": "Ristretto", "recipe": "2 Esslöffel Kaffee einfüllen und eine halbe espresso-große Tasse extrahieren." },
+      "lungo": { "name": "Lungo", "recipe": "2 Esslöffel Kaffee einfüllen und eine halbe normale Tasse extrahieren." },
+      "americano": { "name": "Americano", "recipe": "Ein Espresso und 3/4 Tasse heißes Wasser." },
+      "longBlack": { "name": "Long Black", "recipe": "3/4 Tasse heißes Wasser, dann einen Espresso darüber gießen." },
+      "latte": { "name": "Latte", "recipe": "1 Espresso + 1 Tasse aufgeschäumte Milch mit wenig Schaum." },
+      "flatWhite": { "name": "Flat White", "recipe": "1 Espresso + ½ Tasse fein aufgeschäumte Milch." },
+      "macchiato": { "name": "Macchiato", "recipe": "1 Espresso mit Milchschaum bedeckt." },
+      "caramelMacchiato": { "name": "Caramel Macchiato", "recipe": "1 Espresso + 1 Esslöffel Karamellsirup + 1/2 Tasse aufgeschäumte Milch und Schaum obendrauf." },
+      "cappuccino": { "name": "Cappuccino", "recipe": "1 Espresso + 2 Esslöffel aufgeschäumte Milch + 2 Esslöffel Schaum." },
+      "mochaccino": { "name": "Mokaccino", "recipe": "1 Espresso + 1 Esslöffel Kakao oder Schokoladenpulver + aufgeschäumte Milch bis halbe Tasse." },
+      "affogato": { "name": "Affogato", "recipe": "1 Portion Vanilleeis + 1 heißer Espresso darüber." },
+      "viennese": { "name": "Wiener", "recipe": "1 Espresso + 2 Esslöffel Schlagsahne." },
+      "irish": { "name": "Irischer", "recipe": "1 Tasse heißer Filterkaffee + 1 Esslöffel irischer Whiskey + 1 Teelöffel Zucker; 2 Esslöffel Sahne darauf." },
+      "frappe": { "name": "Frappé", "recipe": "1 Esslöffel Instantkaffee + 1 Esslöffel kaltes Wasser (schütteln), Eis und Milch bis die Tasse voll ist." }
+    }
+  },
+  "blog": {
+    "underConstruction": "Dieser Bereich befindet sich im Aufbau."
+  },
+  "chess": {
+    "title": "Schach",
+    "intro": "Persönliches Projekt: online gegen Stockfish spielen. (Stockfish wird bald durch eine Engine ersetzt, die so spielt wie ich.)",
+    "analysisLink": "Partienanalyse (PGN) →",
+    "loadingEngine": "Engine wird geladen…",
+    "playAs": "Spielen mit",
+    "white": "Weiß",
+    "black": "Schwarz",
+    "engineError": "Stockfish konnte nicht geladen werden.",
+    "moveError": "Der Zug der Engine konnte nicht abgerufen werden.",
+    "resetError": "Die Engine konnte nicht zurückgesetzt werden.",
+    "stockfishCredit": "Engine <stockfishLink>Stockfish</stockfishLink> (GPLv3)",
+    "sounds": {
+      "label": "Sounds",
+      "on": "Ton an",
+      "off": "Ton aus",
+      "mute": "Ton stummschalten",
+      "unmute": "Ton aktivieren"
+    },
+    "pgn": {
+      "download": "PGN herunterladen",
+      "title": "Partie exportieren",
+      "prompt": "Gib deinen Namen für die PGN-Datei ein.",
+      "nameLabel": "Dein Name",
+      "placeholder": "Vor- und Nachname",
+      "confirm": "Herunterladen",
+      "analyze": "Partie analysieren",
+      "confirmAnalyze": "Zum Analysator",
+      "cancel": "Abbrechen",
+      "noMoves": "Keine Züge zum Exportieren.",
+      "nameRequired": "Bitte gib deinen Namen ein."
+    },
+    "panel": {
+      "evaluation": "Bewertung",
+      "moveList": "Züge",
+      "white": "Weiß",
+      "black": "Schwarz",
+      "noMoves": "Noch keine Züge.",
+      "analyzing": "Analysiert…",
+      "whiteAdvantage": "Vorteil Weiß",
+      "blackAdvantage": "Vorteil Schwarz",
+      "equal": "Ausgeglichen",
+      "showEvaluation": "Bewertung anzeigen",
+      "hideEvaluation": "Bewertung ausblenden"
+    },
+    "analysis": {
+      "title": "Partienanalyse",
+      "intro": "PGN einfügen oder laden, um jeden Zug mit Stockfish zu prüfen: Standardsymbole, Bewertung und Navigation durch die Partie.",
+      "pgnFromPlay": "Partie vom Brett geladen. Klicke auf «Partie analysieren», wenn du bereit bist.",
+      "pgnFromPlayDismiss": "Hinweis schließen",
+      "backChess": "← Gegen Stockfish spielen",
+      "inputModeLabel": "Partiequelle",
+      "inputModePgn": "PGN",
+      "inputModeEditor": "Editor",
+      "editorHelp": "Bewege die Figuren auf dem Brett, um die Partie aufzubauen; die Analyse nutzt das erzeugte PGN.",
+      "editorReset": "Editor zurücksetzen",
+      "editorRequired": "Mache mindestens einen Zug im Editor, bevor du analysierst.",
+      "pgnLabel": "Partie-PGN",
+      "uploadPgn": "PGN-Datei hochladen",
+      "pgnPlaceholder": "[Event \"...\"]\n\n1. e4 e5 2. Sf3 ...",
+      "pgnRequired": "Bitte ein PGN eingeben.",
+      "pgnInvalid": "PGN konnte nicht gelesen werden. Format prüfen.",
+      "analyze": "Partie analysieren",
+      "analyzing": "Analysiert…",
+      "cancel": "Abbrechen",
+      "progress": "Zug {{current}} von {{total}}",
+      "summary": "Zusammenfassung",
+      "quality": {
+        "brilliant": "Brillant",
+        "best": "Beste",
+        "good": "Gut",
+        "interesting": "Interessant",
+        "dubious": "Zweifelhaft",
+        "bad": "Schlecht",
+        "veryBad": "Sehr schlecht"
+      },
+      "legend": {
+        "moves": "Züge",
+        "eval": "Stellung",
+        "result": "Ergebnis",
+        "evalHint": {
+          "equal": "Ausgeglichen",
+          "whiteSlight": "Leichter Vorteil Weiß",
+          "blackSlight": "Leichter Vorteil Schwarz",
+          "whiteDecisive": "Entscheidender Vorteil Weiß",
+          "blackDecisive": "Entscheidender Vorteil Schwarz"
+        },
+        "resultHint": {
+          "whiteWins": "Weiß gewinnt",
+          "blackWins": "Schwarz gewinnt",
+          "draw": "Remis",
+          "ongoing": "Partie läuft"
+        }
+      },
+      "startPosition": "Ausgangsstellung",
+      "ply": "{{ply}} / {{total}}",
+      "goStart": "Zum Anfang",
+      "goPrev": "Vorheriger Zug",
+      "goNext": "Nächster Zug",
+      "goEnd": "Zum Ende",
+      "copyFen": "FEN kopieren",
+      "fenCopied": "Kopiert",
+      "downloadPositionImage": "Bild der aktuellen Stellung herunterladen",
+      "downloadAnalyzedPgn": "PGN mit Analyse herunterladen",
+      "pgnComment": {
+        "startEval": "Anfangsbewertung",
+        "bestMove": "Bester Zug",
+        "depth": "Tiefe"
+      },
+      "depthLabel": "Analysetiefe",
+      "rotateBoard": "Brett drehen",
+      "unknownPlayer": "?",
+      "arrowBest": "Bester Zug",
+      "arrowPlayed": "Gespielter Zug",
+      "chartTabMoves": "Züge",
+      "chartTabEval": "Bewertung",
+      "chartAxisMove": "Zug",
+      "chartAxisQuality": "Qualität",
+      "chartAxisPly": "Ply",
+      "chartAxisEval": "Bew.",
+      "chartMoveNumber": "Zug {{n}}",
+      "chartPly": "Ply {{ply}}",
+      "chartEval": "Bewertung",
+      "newAnalysis": "Neue Partie"
+    },
+    "status": {
+      "check": "Schach.",
+      "yourTurnWhite": "Sie sind am Zug (Weiß).",
+      "yourTurnBlack": "Sie sind am Zug (Schwarz).",
+      "engineThinking": "Stockfish denkt nach…",
+      "mateLost": "Schachmatt. Stockfish gewinnt.",
+      "mateWon": "Schachmatt. Sie haben gewonnen!",
+      "drawStalemate": "Remis durch Patt.",
+      "drawRepetition": "Remis durch dreifache Stellungswiederholung.",
+      "drawMaterial": "Remis durch unzureichendes Material.",
+      "draw": "Remis."
+    }
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen — @devrfc83",
+    "website": "Website:",
+    "updated": "Letzte Aktualisierung: 25. Mai 2026",
+    "footer": "@devrfc83 — Chile",
+    "contactForm": "Kontaktformular",
+    "summaryNotice": "Dies ist eine Kurzfassung. Die vollständige und rechtsverbindliche Fassung ist nur auf Spanisch verfügbar.",
+    "summaryLink": "Vollständige Nutzungsbedingungen auf Spanisch lesen",
+    "summary": [
+      { "title": "Annahme", "body": "Durch die Nutzung dieser Website akzeptieren Sie diese Bedingungen. Wenn Sie nicht einverstanden sind, nutzen Sie die Website nicht." },
+      { "title": "Dienst", "body": "Persönliche Website mit Blog, Portfolio, Open-Source-Projekten, Newsletter und Kontaktformular." },
+      { "title": "Geistiges Eigentum", "body": "Originalinhalte gehören dem Inhaber von @devrfc83. Herunterladbarer Code unterliegt der in jedem Projekt angegebenen Lizenz." },
+      { "title": "Datenschutz", "body": "Es werden nur Daten erhoben, die Sie freiwillig angeben. Keine Tracking-Cookies und keine Analysedienste Dritter." },
+      { "title": "Haftung", "body": "Die Website und Downloads werden „wie besehen“ bereitgestellt. Der Inhaber haftet nicht für Schäden aus der Nutzung." },
+      { "title": "Kontakt", "body": "Bei Fragen zu diesen Bedingungen nutzen Sie das Kontaktformular der Website." }
+    ],
+    "full": []
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung — @devrfc83",
+    "website": "Website:",
+    "updated": "Letzte Aktualisierung: 25. Mai 2026",
+    "footer": "@devrfc83 — Chile",
+    "contactForm": "Kontaktformular",
+    "summaryNotice": "Dies ist eine Kurzfassung. Die vollständige und rechtsverbindliche Fassung ist nur auf Spanisch verfügbar.",
+    "summaryLink": "Vollständige Datenschutzerklärung auf Spanisch lesen",
+    "table": { "data": "Daten", "purpose": "Zweck" },
+    "summary": [
+      { "title": "Verantwortlicher", "body": "Der Inhaber von @devrfc83 mit Sitz in Chile. Anfragen über das Kontaktformular." },
+      { "title": "Erhobene Daten", "body": "Nur freiwillig angegebene Daten: Kontakt (Name, E-Mail, Nachricht), Newsletter (E-Mail) und aggregierte HTTP-Metriken ohne individuelle Identifikation." },
+      { "title": "Verwendung", "body": "Beantwortung von Anfragen, Versand des Newsletters und technisches Monitoring. Keine Werbung und kein Profiling." },
+      { "title": "Dritte", "body": "Daten werden nicht verkauft oder geteilt, außer bei gesetzlicher Pflicht. Der E-Mail-Anbieter handelt nur als Auftragsverarbeiter." },
+      { "title": "Ihre Rechte", "body": "Sie können auf Ihre Daten zugreifen, sie berichtigen, löschen und Ihre Einwilligung widerrufen, indem Sie den Inhaber kontaktieren." },
+      { "title": "Rechtsgrundlage", "body": "Freiwillige Einwilligung. Betrieb gemäß dem chilenischen Gesetz Nr. 19.628." }
+    ],
+    "full": [],
+    "dataRows": [
+      { "data": "E-Mail (Kontakt)", "purpose": "Beantwortung Ihrer Anfrage" },
+      { "data": "E-Mail (Newsletter)", "purpose": "Versand von Inhalten der Website" },
+      { "data": "Name und Nachricht", "purpose": "Bearbeitung der Kommunikation" },
+      { "data": "HTTP-Metriken", "purpose": "Technisches Server-Monitoring" }
+    ]
+  }
+}

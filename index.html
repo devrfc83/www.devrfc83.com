@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark" />
+    <title>Rodrigo Fuentealba Cartes</title>
+    <style>
+      html,
+      body {
+        background-color: #1d232a;
+        color-scheme: dark;
+      }
+      body {
+        background-image:
+          radial-gradient(ellipse 90% 55% at 50% -15%, rgba(96, 165, 250, 0.13), transparent 70%),
+          radial-gradient(ellipse 70% 45% at 100% 85%, rgba(96, 165, 250, 0.08), transparent 65%),
+          radial-gradient(ellipse 55% 40% at 0% 70%, rgba(167, 139, 250, 0.06), transparent 60%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Formulario estático para detección de Netlify Forms (SPA) -->
+    <form name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="contacto" />
+      <input type="text" name="bot-field" />
+      <input type="text" name="nombre" />
+      <input type="email" name="email" />
+      <input type="text" name="asunto" />
+      <textarea name="mensaje"></textarea>
+    </form>
+    <div id="root"></div>
+    <script type="module" src="/src/entry-client.tsx"></script>
+  </body>
+</html>

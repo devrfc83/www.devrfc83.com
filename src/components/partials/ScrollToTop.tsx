@@ -1,0 +1,15 @@
+import { useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
+
+/** Compatible con BrowserRouter (no requiere data router). */
+const ScrollToTop = () => {
+  const { pathname } = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+
+  return null
+}
+
+export default ScrollToTop

@@ -1,0 +1,370 @@
+{
+  "meta": {
+    "siteName": "Rodrigo Fuentealba Cartes",
+    "defaultTitle": "Rodrigo Fuentealba Cartes — @devrfc83"
+  },
+  "common": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "footer": {
+      "copyright": "Copyright © {{year}} Rodrigo Fuentealba Cartes — All rights reserved.",
+      "legal": "See our <termsLink>terms of service</termsLink> and our <privacyLink>privacy policy</privacyLink>."
+    },
+    "notFound": {
+      "title": "Page not found",
+      "body": "The page you are looking for does not exist.",
+      "back": "Back to home"
+    },
+    "language": "Language",
+    "backHome": "← Home",
+    "profileAlt": "Profile photo of Rodrigo Fuentealba Cartes",
+    "profileAltShort": "Profile photo",
+    "socialNav": "Social media"
+  },
+  "home": {
+    "bio": "Computer Science Engineer with over 20 years of experience in the software industry."
+  },
+  "about": {
+    "subtitle": "Licensed engineer and Computer Science Engineer with over 20 years of industry experience. Chess player, motorcyclist, radio amateur, and athlete.",
+    "historyTitle": "Background",
+    "history": "I was born on February 22, 1983 in Talcahuano, Bío-Bío Region, Chile. I graduated as a Programmer Analyst in 2008, and later as a Licensed Engineer in Engineering Sciences and Computer Science Engineer in 2024, with <em>Cum Laude</em> distinction. I currently live in the city of Talca, Maule Region, Chile.",
+    "experienceTitle": "Experience",
+    "experience": "I have over 20 years of experience in the software industry, working on projects of various kinds, from web applications to enterprise management systems.",
+    "interestsTitle": "Interests",
+    "interestsIntro": "Beyond my professional work, I have a wide range of interests:",
+    "interestChessNote": "(here you can <analysisLink>analyze your games</analysisLink>).",
+    "interestElectronicsPlain": "Electricity and electronics.",
+    "kickboxingNote": "Kickboxing: I train at <brutalStrikerLink>Brutal Striker Talca</brutalStrikerLink>.",
+    "radioClubNote": "<radioLink>Amateur radio</radioLink>: I belong to the <radioClubLink>Radio Club Lircay de Talca CE4LY</radioClubLink>, and I also maintain its website.",
+    "interests": [
+      "Languages (English, German, Italian, Portuguese).",
+      "Travel.",
+      "Motorcycling.",
+      "DSLR photography.",
+      "Piano and guitar.",
+      "Gymnastics.",
+      "Calisthenics and weightlifting.",
+      "Video games and retrogaming."
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "intro": "I offer independent professional services in Data Science, Computer Science Engineering, and Project Management. Each project is approached in a personalized way, tailoring solutions to the client's specific needs and business context. If you have a project in mind, feel free to <contactLink>get in touch</contactLink>.",
+    "items": {
+      "dataScience": {
+        "name": "Data Science",
+        "description": "Analysis, modeling, and interpretation of data to extract actionable insights, develop predictive models, and support evidence-based decision-making."
+      },
+      "software": {
+        "name": "Software Engineering",
+        "description": "Design, development, and maintenance of software solutions, from system architecture to implementation, with a focus on quality, scalability, and best practices."
+      },
+      "databases": {
+        "name": "Databases",
+        "description": "Design of entity-relationship models for software development and data analytics projects."
+      },
+      "pm": {
+        "name": "Project Management",
+        "description": "Planning, coordination, and tracking of technology projects, ensuring deadlines, resources, and objectives are met using agile or traditional methodologies."
+      },
+      "consulting": {
+        "name": "Consulting",
+        "description": "Specialized technical advisory in technology and information systems, aimed at optimizing processes, evaluating solutions, and guiding strategic decisions."
+      },
+      "training": {
+        "name": "Training",
+        "description": "Practical, personalized training in tools, languages, and technology methodologies, for teams and professionals looking to develop or strengthen skills in data and software."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Write to me and I will reply as soon as possible. Fields marked with <required>*</required> are required.",
+    "success": "Message sent successfully. Thank you for getting in touch.",
+    "error": "The message could not be sent. Please try again in a few minutes.",
+    "honeypot": "Do not fill in this field:",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "placeholders": {
+      "name": "Your name",
+      "email": "you@email.com",
+      "subject": "Reason for your message",
+      "message": "Write your message here…"
+    },
+    "sending": "Sending…",
+    "submit": "Send message",
+    "captcha": {
+      "label": "Verification",
+      "another": "Another question",
+      "ariaRefresh": "Generate another verification question",
+      "question": "What is {{a}} + {{b}}?",
+      "placeholder": "Your answer",
+      "wait": "Please wait a moment and try again.",
+      "wrong": "That answer is not correct. Please try again."
+    }
+  },
+  "quality": {
+    "title": "Quality",
+    "intro": "Software quality assurance is the systematic process that ensures every digital product meets the highest standards of performance, security, and user experience before it reaches you.",
+    "items": {
+      "requirements": { "name": "Requirements", "description": "Documentation of business needs." },
+      "testPlan": { "name": "Test Plan", "description": "Description of features." },
+      "databases": { "name": "Databases", "description": "Organization of information." },
+      "ui": { "name": "User Interfaces", "description": "Presentation of information." },
+      "logic": { "name": "Application Logic", "description": "Creation of functionality." },
+      "brand": { "name": "Brand Identity", "description": "Implementation of corporate image." },
+      "qa": { "name": "Quality Assurance", "description": "Validation of features according to the test plan." },
+      "delivery": { "name": "Production Release", "description": "Delivery of the final product to the client." }
+    }
+  },
+  "products": {
+    "title": "Products",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Catalog of available solutions.",
+    "cards": [
+      { "name": "Product Alpha", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus." },
+      { "name": "Product Beta", "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur. Donec sed odio dui." },
+      { "name": "Product Gamma", "description": "Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare." },
+      { "name": "Product Delta", "description": "Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper." },
+      { "name": "Product Epsilon", "description": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus." }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Featured work and collaborations.",
+    "cards": [
+      { "name": "Project Atlas", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet." },
+      { "name": "Project Boreal", "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec id elit non mi porta." },
+      { "name": "Project Zenith", "description": "Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet." },
+      { "name": "Project Delta", "description": "Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus." },
+      { "name": "Project Aegis", "description": "Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit." },
+      { "name": "Project Forge", "description": "Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus tellus ac cursus." },
+      { "name": "Project Horizon", "description": "Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod consectetur." }
+    ]
+  },
+  "technology": {
+    "title": "Technology",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Stack and tools I use.",
+    "cards": [
+      { "name": "TypeScript", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Static typing for scalable applications." },
+      { "name": "React", "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur. Modular user interfaces." },
+      { "name": "Node.js", "description": "Donec ullamcorper nulla non metus auctor fringilla. Server-side runtime environments." },
+      { "name": "PostgreSQL", "description": "Cras mattis consectetur purus sit amet fermentum. Robust relational databases." },
+      { "name": "Docker", "description": "Nullam quis risus eget urna mollis ornare vel eu leo. Containers and reproducible deployment." },
+      { "name": "Linux", "description": "Vestibulum id ligula porta felis euismod semper. Operating systems and server administration." },
+      { "name": "Git", "description": "Morbi leo risus, porta ac consectetur ac. Version control and team workflows." },
+      { "name": "CI/CD", "description": "Fusce dapibus, tellus ac cursus commodo. Continuous integration and software delivery." }
+    ]
+  },
+  "coffee": {
+    "title": "Coffee",
+    "intro": "Home recipes using cups, tablespoons, and teaspoons.",
+    "items": {
+      "espresso": { "name": "Espresso", "recipe": "Add 2 tablespoons of coffee and extract one espresso-size cup." },
+      "espressoDoppio": { "name": "Espresso Doppio", "recipe": "Add 4 tablespoons of coffee and extract half a regular-size cup." },
+      "ristretto": { "name": "Ristretto", "recipe": "Add 2 tablespoons of coffee and extract half an espresso-size cup." },
+      "lungo": { "name": "Lungo", "recipe": "Add 2 tablespoons of coffee and extract half a regular-size cup." },
+      "americano": { "name": "Americano", "recipe": "One espresso and 3/4 cup of hot water." },
+      "longBlack": { "name": "Long Black", "recipe": "3/4 cup of hot water, then pour one espresso on top." },
+      "latte": { "name": "Latte", "recipe": "1 espresso + 1 cup steamed milk with little foam." },
+      "flatWhite": { "name": "Flat White", "recipe": "1 espresso + ½ cup microfoamed milk." },
+      "macchiato": { "name": "Macchiato", "recipe": "1 espresso topped with milk foam." },
+      "caramelMacchiato": { "name": "Caramel Macchiato", "recipe": "1 espresso + 1 tablespoon caramel syrup + 1/2 cup steamed milk and foam on top." },
+      "cappuccino": { "name": "Cappuccino", "recipe": "1 espresso + 2 tablespoons steamed milk + 2 tablespoons foam." },
+      "mochaccino": { "name": "Mochaccino", "recipe": "1 espresso + 1 tablespoon cocoa or chocolate powder + steamed milk to half a cup." },
+      "affogato": { "name": "Affogato", "recipe": "1 scoop vanilla ice cream + 1 hot espresso poured on top." },
+      "viennese": { "name": "Viennese", "recipe": "1 espresso + 2 tablespoons whipped cream." },
+      "irish": { "name": "Irish", "recipe": "1 cup hot filter coffee + 1 tablespoon Irish whiskey + 1 teaspoon sugar; top with 2 tablespoons cream." },
+      "frappe": { "name": "Frappé", "recipe": "1 tablespoon instant coffee + 1 tablespoon cold water (shake), ice, and milk to fill the cup." }
+    }
+  },
+  "blog": {
+    "underConstruction": "This section is under construction."
+  },
+  "chess": {
+    "title": "Chess",
+    "intro": "Personal project: play against Stockfish online. (Stockfish will soon be replaced by an engine that plays the way I do.)",
+    "analysisLink": "Game analyzer (PGN) →",
+    "loadingEngine": "Loading engine…",
+    "playAs": "Play as",
+    "white": "White",
+    "black": "Black",
+    "engineError": "Could not load Stockfish.",
+    "moveError": "Could not get the engine's move.",
+    "resetError": "Could not reset the engine.",
+    "stockfishCredit": "<stockfishLink>Stockfish</stockfishLink> engine (GPLv3)",
+    "sounds": {
+      "label": "Sounds",
+      "on": "Sounds on",
+      "off": "Sounds muted",
+      "mute": "Mute sounds",
+      "unmute": "Unmute sounds"
+    },
+    "pgn": {
+      "download": "Download PGN",
+      "title": "Export game",
+      "prompt": "Enter your name to include it in the PGN file.",
+      "nameLabel": "Your name",
+      "placeholder": "First and last name",
+      "confirm": "Download",
+      "analyze": "Analyze game",
+      "confirmAnalyze": "Open analyzer",
+      "cancel": "Cancel",
+      "noMoves": "No moves to export.",
+      "nameRequired": "Enter your name to continue."
+    },
+    "panel": {
+      "evaluation": "Evaluation",
+      "moveList": "Moves",
+      "white": "White",
+      "black": "Black",
+      "noMoves": "No moves yet.",
+      "analyzing": "Analyzing…",
+      "whiteAdvantage": "White advantage",
+      "blackAdvantage": "Black advantage",
+      "equal": "Equal position",
+      "showEvaluation": "Show evaluation",
+      "hideEvaluation": "Hide evaluation"
+    },
+    "analysis": {
+      "title": "Game analysis",
+      "intro": "Paste or load a PGN to review each move with Stockfish: standard symbols, evaluation, and navigation through the game.",
+      "pgnFromPlay": "Game loaded from the board. Press «Analyze game» when ready.",
+      "pgnFromPlayDismiss": "Dismiss notice",
+      "backChess": "← Play against Stockfish",
+      "inputModeLabel": "Game source",
+      "inputModePgn": "PGN",
+      "inputModeEditor": "Editor",
+      "editorHelp": "Move pieces on the board to build a game; analysis will use the generated PGN.",
+      "editorReset": "Reset editor",
+      "editorRequired": "Play at least one move in the editor before analyzing.",
+      "pgnLabel": "Game PGN",
+      "uploadPgn": "Upload PGN file",
+      "pgnPlaceholder": "[Event \"...\"]\n\n1. e4 e5 2. Nf3 ...",
+      "pgnRequired": "Enter a PGN to analyze.",
+      "pgnInvalid": "Could not read the PGN. Check the format.",
+      "analyze": "Analyze game",
+      "analyzing": "Analyzing…",
+      "cancel": "Cancel",
+      "progress": "Move {{current}} of {{total}}",
+      "summary": "Summary",
+      "quality": {
+        "brilliant": "Brilliant",
+        "best": "Best",
+        "good": "Good",
+        "interesting": "Interesting",
+        "dubious": "Dubious",
+        "bad": "Bad",
+        "veryBad": "Very bad"
+      },
+      "legend": {
+        "moves": "Moves",
+        "eval": "Position",
+        "result": "Result",
+        "evalHint": {
+          "equal": "Equal",
+          "whiteSlight": "Slight white edge",
+          "blackSlight": "Slight black edge",
+          "whiteDecisive": "Decisive white advantage",
+          "blackDecisive": "Decisive black advantage"
+        },
+        "resultHint": {
+          "whiteWins": "White wins",
+          "blackWins": "Black wins",
+          "draw": "Draw",
+          "ongoing": "Game in progress"
+        }
+      },
+      "startPosition": "Starting position",
+      "ply": "{{ply}} / {{total}}",
+      "goStart": "Go to start",
+      "goPrev": "Previous move",
+      "goNext": "Next move",
+      "goEnd": "Go to end",
+      "copyFen": "Copy FEN",
+      "fenCopied": "Copied",
+      "downloadPositionImage": "Download image of current position",
+      "downloadAnalyzedPgn": "Download PGN with analysis",
+      "pgnComment": {
+        "startEval": "Initial eval",
+        "bestMove": "Best move",
+        "depth": "Depth"
+      },
+      "depthLabel": "Analysis depth",
+      "rotateBoard": "Flip board",
+      "unknownPlayer": "?",
+      "arrowBest": "Best move",
+      "arrowPlayed": "Played move",
+      "chartTabMoves": "Moves",
+      "chartTabEval": "Evaluation",
+      "chartAxisMove": "Move",
+      "chartAxisQuality": "Quality",
+      "chartAxisPly": "Ply",
+      "chartAxisEval": "Eval.",
+      "chartMoveNumber": "Move {{n}}",
+      "chartPly": "Ply {{ply}}",
+      "chartEval": "Evaluation",
+      "newAnalysis": "New game"
+    },
+    "status": {
+      "check": "Check.",
+      "yourTurnWhite": "Your turn (white).",
+      "yourTurnBlack": "Your turn (black).",
+      "engineThinking": "Stockfish is thinking…",
+      "mateLost": "Checkmate. Stockfish wins.",
+      "mateWon": "Checkmate. You win!",
+      "drawStalemate": "Draw by stalemate.",
+      "drawRepetition": "Draw by repetition.",
+      "drawMaterial": "Draw by insufficient material.",
+      "draw": "Draw."
+    }
+  },
+  "terms": {
+    "title": "Terms of Service — @devrfc83",
+    "website": "Website:",
+    "updated": "Last updated: May 25, 2026",
+    "footer": "@devrfc83 — Chile",
+    "contactForm": "contact form",
+    "summaryNotice": "This is a summary version. The full, legally binding version is available only in Spanish.",
+    "summaryLink": "Read full terms in Spanish",
+    "summary": [
+      { "title": "Acceptance", "body": "By using this site you accept these terms. If you do not agree, do not use the site." },
+      { "title": "Service", "body": "Personal site with blog, portfolio, open-source projects, newsletter, and contact form." },
+      { "title": "Intellectual property", "body": "Original content belongs to the owner of @devrfc83. Downloadable code is governed by the license stated in each project." },
+      { "title": "Privacy", "body": "Only data you voluntarily provide is collected. No tracking cookies or third-party analytics." },
+      { "title": "Liability", "body": "The site and downloads are provided \"as is.\" The owner is not liable for damages arising from use." },
+      { "title": "Contact", "body": "For questions about these terms, use the site's contact form." }
+    ],
+    "full": []
+  },
+  "privacy": {
+    "title": "Privacy Policy — @devrfc83",
+    "website": "Website:",
+    "updated": "Last updated: May 25, 2026",
+    "footer": "@devrfc83 — Chile",
+    "contactForm": "contact form",
+    "summaryNotice": "This is a summary version. The full, legally binding version is available only in Spanish.",
+    "summaryLink": "Read full policy in Spanish",
+    "table": { "data": "Data", "purpose": "Purpose" },
+    "summary": [
+      { "title": "Controller", "body": "The owner of @devrfc83, based in Chile. Inquiries via the contact form." },
+      { "title": "Data collected", "body": "Only data you voluntarily provide: contact (name, email, message), newsletter (email), and aggregated HTTP metrics without individual identification." },
+      { "title": "Use", "body": "To respond to inquiries, send the newsletter, and technical monitoring. No advertising or profiling." },
+      { "title": "Third parties", "body": "Data is not sold or shared except where legally required. The email provider acts only as a processor." },
+      { "title": "Your rights", "body": "You may access, rectify, delete your data, and withdraw consent by contacting the owner." },
+      { "title": "Legal basis", "body": "Voluntary consent. Operation in accordance with Chile's Law No. 19,628." }
+    ],
+    "full": [],
+    "dataRows": [
+      { "data": "Email (contact)", "purpose": "Respond to your inquiry" },
+      { "data": "Email (newsletter)", "purpose": "Send site content" },
+      { "data": "Name and message", "purpose": "Manage communication" },
+      { "data": "HTTP metrics", "purpose": "Technical server monitoring" }
+    ]
+  }
+}

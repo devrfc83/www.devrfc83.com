@@ -1,0 +1,73 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/"
+  to = "/es"
+  status = 301
+
+[[redirects]]
+  from = "/acerca"
+  to = "/es/acerca"
+  status = 301
+
+[[redirects]]
+  from = "/productos"
+  to = "/es/productos"
+  status = 301
+
+[[redirects]]
+  from = "/servicios"
+  to = "/es/servicios"
+  status = 301
+
+[[redirects]]
+  from = "/proyectos"
+  to = "/es/proyectos"
+  status = 301
+
+[[redirects]]
+  from = "/tecnologia"
+  to = "/es/tecnologia"
+  status = 301
+
+[[redirects]]
+  from = "/calidad"
+  to = "/es/calidad"
+  status = 301
+
+[[redirects]]
+  from = "/cafe"
+  to = "/es/cafe"
+  status = 301
+
+[[redirects]]
+  from = "/blog"
+  to = "/es/blog"
+  status = 301
+
+[[redirects]]
+  from = "/contacto"
+  to = "/es/contacto"
+  status = 301
+
+[[redirects]]
+  from = "/terminos"
+  to = "/es/terminos"
+  status = 301
+
+[[redirects]]
+  from = "/privacidad"
+  to = "/es/privacidad"
+  status = 301
+
+[[redirects]]
+  from = "/ajedrez"
+  to = "/es/ajedrez"
+  status = 301
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

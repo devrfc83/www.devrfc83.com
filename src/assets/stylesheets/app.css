@@ -1,0 +1,330 @@
+@import 'tailwindcss';
+
+@plugin 'daisyui' {
+    themes: dark --default --prefersdark;
+}
+
+html {
+    color-scheme: dark;
+    background-color: var(--color-base-100);
+}
+
+body {
+    min-height: 100dvh;
+    background-color: var(--color-base-100);
+    background-image:
+        radial-gradient(
+            ellipse 90% 55% at 50% -15%,
+            color-mix(in oklch, var(--color-primary) 18%, transparent),
+            transparent 70%
+        ),
+        radial-gradient(
+            ellipse 70% 45% at 100% 85%,
+            color-mix(in oklch, var(--color-primary) 10%, transparent),
+            transparent 65%
+        ),
+        radial-gradient(
+            ellipse 55% 40% at 0% 70%,
+            color-mix(in oklch, var(--color-secondary, var(--color-primary)) 8%, transparent),
+            transparent 60%
+        );
+    background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+    }
+}
+
+/* --- Animaciones (respetan prefers-reduced-motion) --- */
+
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(14px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes profile-glow {
+    0%,
+    100% {
+        opacity: 0.45;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.85;
+        transform: scale(1.06);
+    }
+}
+
+@keyframes profile-shimmer {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes link-shine {
+    0% {
+        background-position: 200% center;
+    }
+    100% {
+        background-position: -200% center;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .animate-page-in > * {
+        animation: fade-in-up 0.55s ease-out both;
+    }
+
+    .animate-page-in > *:nth-child(1) {
+        animation-delay: 0.05s;
+    }
+    .animate-page-in > *:nth-child(2) {
+        animation-delay: 0.12s;
+    }
+    .animate-page-in > *:nth-child(3) {
+        animation-delay: 0.19s;
+    }
+    .animate-page-in > *:nth-child(4) {
+        animation-delay: 0.26s;
+    }
+
+    .animate-page-in > *:nth-child(5) {
+        animation-delay: 0.33s;
+    }
+
+    .animate-page-in > *:nth-child(6) {
+        animation-delay: 0.4s;
+    }
+
+    .animate-page-in > *:nth-child(7) {
+        animation-delay: 0.47s;
+    }
+
+    .animate-page-in > *:nth-child(8) {
+        animation-delay: 0.54s;
+    }
+
+    .animate-page-in > *:nth-child(9) {
+        animation-delay: 0.61s;
+    }
+
+    .animate-page-in > *:nth-child(10) {
+        animation-delay: 0.68s;
+    }
+
+    .animate-page-in > *:nth-child(11) {
+        animation-delay: 0.75s;
+    }
+
+    .animate-page-in > *:nth-child(12) {
+        animation-delay: 0.82s;
+    }
+
+    .animate-page-in > *:nth-child(13) {
+        animation-delay: 0.89s;
+    }
+
+    .profile-avatar {
+        position: relative;
+        display: inline-flex;
+    }
+
+    .profile-avatar::before {
+        content: '';
+        position: absolute;
+        inset: -4px;
+        border-radius: 9999px;
+        background: conic-gradient(
+            from 0deg,
+            transparent 0deg,
+            color-mix(in oklch, var(--color-primary) 70%, transparent) 90deg,
+            transparent 180deg,
+            color-mix(in oklch, var(--color-primary) 50%, transparent) 270deg,
+            transparent 360deg
+        );
+        animation: profile-shimmer 5s linear infinite;
+        z-index: 0;
+    }
+
+    .profile-avatar::after {
+        content: '';
+        position: absolute;
+        inset: -10px;
+        border-radius: 9999px;
+        background: radial-gradient(
+            circle,
+            color-mix(in oklch, var(--color-primary) 35%, transparent) 0%,
+            transparent 70%
+        );
+        animation: profile-glow 3.5s ease-in-out infinite;
+        z-index: 0;
+        pointer-events: none;
+    }
+
+    .profile-avatar img {
+        position: relative;
+        z-index: 1;
+        transition:
+            transform 0.35s ease,
+            box-shadow 0.35s ease;
+    }
+
+    .profile-avatar:hover img {
+        transform: scale(1.03);
+        box-shadow: 0 12px 40px color-mix(in oklch, var(--color-primary) 25%, transparent);
+    }
+
+    .nav-link-motion {
+        transition:
+            color 0.2s ease,
+            background-color 0.2s ease,
+            transform 0.2s ease;
+    }
+
+    .nav-link-motion:hover {
+        transform: translateY(-2px);
+    }
+
+    .nav-link-motion:hover svg {
+        transform: scale(1.12);
+        transition: transform 0.2s ease;
+    }
+
+    .nav-brand-motion {
+        transition:
+            color 0.2s ease,
+            transform 0.2s ease,
+            text-shadow 0.2s ease;
+    }
+
+    .nav-brand-motion:hover {
+        transform: scale(1.02);
+        text-shadow: 0 0 20px color-mix(in oklch, var(--color-primary) 40%, transparent);
+    }
+
+    .btn-motion {
+        transition:
+            transform 0.2s ease,
+            box-shadow 0.2s ease,
+            border-color 0.2s ease;
+    }
+
+    .btn-motion:hover:not(:disabled) {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 24px color-mix(in oklch, var(--color-primary) 22%, transparent);
+    }
+
+    .btn-motion:active:not(:disabled) {
+        transform: translateY(0);
+    }
+
+    .btn-motion svg {
+        transition: transform 0.2s ease;
+    }
+
+    .link-motion {
+        transition:
+            color 0.2s ease,
+            opacity 0.2s ease;
+        background-image: linear-gradient(
+            90deg,
+            currentColor,
+            color-mix(in oklch, var(--color-primary) 90%, white),
+            currentColor
+        );
+        background-size: 200% auto;
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+
+    .link-motion:hover {
+        animation: link-shine 2.5s linear infinite;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .card-motion {
+        transition:
+            transform 0.25s ease,
+            box-shadow 0.25s ease,
+            border-color 0.25s ease;
+    }
+
+    .card-motion:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 28px color-mix(in oklch, var(--color-base-content) 8%, transparent);
+    }
+
+    .form-card-motion {
+        transition:
+            transform 0.3s ease,
+            box-shadow 0.3s ease,
+            border-color 0.3s ease;
+        border: 1px solid transparent;
+    }
+
+    .form-card-motion:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 14px 32px color-mix(in oklch, var(--color-primary) 12%, transparent);
+    }
+
+    .form-card-motion:focus-within {
+        border-color: color-mix(in oklch, var(--color-primary) 35%, transparent);
+        box-shadow:
+            0 0 0 1px color-mix(in oklch, var(--color-primary) 20%, transparent),
+            0 12px 36px color-mix(in oklch, var(--color-primary) 15%, transparent);
+    }
+
+    .input-motion {
+        transition:
+            border-color 0.2s ease,
+            box-shadow 0.2s ease,
+            background-color 0.2s ease;
+    }
+
+    .input-motion:hover:not(:disabled) {
+        border-color: color-mix(in oklch, var(--color-primary) 45%, var(--color-base-300));
+    }
+
+    .input-motion:focus {
+        border-color: var(--color-primary);
+        box-shadow: 0 0 0 3px color-mix(in oklch, var(--color-primary) 28%, transparent);
+        outline: none;
+    }
+
+    .btn-motion:hover:not(:disabled) svg {
+        transform: translateX(3px);
+    }
+
+    .legal-page table tbody tr {
+        transition: background-color 0.2s ease;
+    }
+
+    .legal-page table tbody tr:hover {
+        background-color: color-mix(in oklch, var(--color-primary) 10%, transparent);
+    }
+
+    .legal-page h2 {
+        transition: color 0.2s ease;
+    }
+
+    .legal-page section:hover h2 {
+        color: color-mix(in oklch, var(--color-primary) 85%, var(--color-base-content));
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .animate-page-in > * {
+        animation: none;
+    }
+
+    .legal-page section:hover h2 {
+        color: inherit;
+    }
+}
